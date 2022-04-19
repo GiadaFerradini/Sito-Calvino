@@ -13,9 +13,14 @@ function Mostra (){
 	try{
 		Inizializza();
 		nodoRacconti[this.id].setAttribute('style', 'display : display');
+        window.scrollTo(0, 500);
 	} catch ( e ) {
 		alert("Mostra" + e);
 	}
+}
+
+function scrollWin() {
+    window.scrollTo(0, 50000);
 }
 
 var nodoRacconti = new Array;

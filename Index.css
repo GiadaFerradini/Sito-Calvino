@@ -63,6 +63,7 @@ li a {
 	text-decoration: none;
 	font-size: 42px;
 	font-family:'Stylish', sans-serif ;
+	transition-duration: 0.4s;
 }
 
 li a:hover {
@@ -86,7 +87,7 @@ li.elencofanta{
 	margin-bottom: 1px;
 }
 
-div.contenitore {
+.contenitore {
 	background-color: rgba(242, 242, 242, 0.9);
 	width: 80%;
 	margin-left : 10%;
@@ -94,7 +95,6 @@ div.contenitore {
 	margin-bottom: 3%;
 	padding-top : 1%;
 	padding-bottom: 2%;
-	
 	border-radius : 15px;
 	font-family:'Stylish', sans-serif;
 	font-size: 18px;	
@@ -133,11 +133,28 @@ div.contenitore {
 	text-align: justify;
 }
 
+#testoSNR {
+	width: 63%;
+	padding-right: 2%;
+}
 
-div.cronologia {
-	background-color: rgba(171, 205, 239, 0.8);
+#CopertinaSNR{
+	width: 20%;
+	float: right;
+}
+
+.cronologia {
+	background-color: rgba(171, 205, 239, 0.9);
 	border-radius : 15px;
 	font-family: 'Comfortaa', cursive;
+	width: 95%;
+	margin-left: 2.5%;
+}
+
+#titlinea {
+	padding-top: 2%;
+	margin-bottom: 0px;
+	color: white;
 }
 
 .grid-container {
@@ -172,31 +189,47 @@ div.cronologia {
 }
 
 .bottone-grid {
-	width: 10px; 
+	padding: 5px 14px; 
 	color: black;
-	background-color: #FFBF00;
+	background-color: #ee87e2;
 	border-radius: 15px;
 	border-color: gray;
 	font-family:'Stylish', sans-serif;
+	transition-duration: 0.4s;
 }
 
 .bottone-grid:hover {
-	background-color: purple;
+	background-color: rgb(158, 11, 158);
+}
+
+.bottonetemi {
+	float: left;
+	margin-left: 2%;
+	margin-top: 2.5%;
+	width: 35px;
 }
 
 #bottoni{
 	text-align: center;
+	padding-right: 4%;
 }
 
 #pcentrato{
 	text-align: center;
+	padding-right: 6%;
 }
 
 .bottonePers {
+	font-size: 16px;
 	border-radius: 15px;
 	width: 15%;
 	padding: 1%;
 	margin: 20px;
+	transition-duration: 0.4s;
+}
+
+.bottonePers:hover{
+	background-color: rgb(233, 218, 133);
 }
 
 h2 {
@@ -235,23 +268,30 @@ p {
 }
 
 .overlay {
-	font-weight : bold;
-	width : 100%;
-	height : 100%;
 	top: 0;
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background-color :  rgba(0, 0, 0, 0.85);
+	background-color :  rgb(189, 211, 231);
+	border: solid 2px white;
+	border-radius: 15px;
 	font-family: 'Merienda', cursive;
-	margin : 0;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	margin-left: 2%;
+	margin-right: 2%;
+	padding: 1%;
 	z-index : 2;
 	position : fixed;	
 	overflow : scroll;
 }
 
+.overlay h2 {
+	color: black;
+}
+
 .overlay p {
-	color: white;
+	color: black;
 	display: inline-block;
 }
 
@@ -324,15 +364,15 @@ p {
 }
 
 .rosso{
-	color: red;
+	color: #d42828;
 }
 
 .verde {
-	color: green;
+	color: rgb(2, 146, 2);
 }
 
 .blu{
-	color: blue;
+	color: rgb(10, 10, 212);
 }
 
 .Scatola {
